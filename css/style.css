@@ -968,27 +968,27 @@ span {
 }
 
 .carousel__face:nth-child(1) {
-  background-image: url("/img/achieve6.jpg");
+  background-image: url("img/achieve6.jpg");
   transform: rotateY(0deg) translateZ(430px);
 }
 .carousel__face:nth-child(2) {
-  background-image: url("/img/achieve3.jpg");
+  background-image: url("img/achieve3.jpg");
   transform: rotateY(40deg) translateZ(430px);
 }
 .carousel__face:nth-child(3) {
-  background-image: url("/img/achieve5.jpg");
+  background-image: url("img/achieve5.jpg");
   transform: rotateY(80deg) translateZ(430px);
 }
 .carousel__face:nth-child(4) {
-  background-image: url("/img/achieve4.jpg");
+  background-image: url("img/achieve4.jpg");
   transform: rotateY(120deg) translateZ(430px);
 }
 .carousel__face:nth-child(5) {
-  background-image: url("/img/achieve1.jpg");
+  background-image: url("img/achieve1.jpg");
   transform: rotateY(160deg) translateZ(430px);
 }
 .carousel__face:nth-child(6) {
-  background-image: url("/img/achieve7.jpg");
+  background-image: url("img/achieve7.jpg");
   transform: rotateY(200deg) translateZ(430px);
 }
 
