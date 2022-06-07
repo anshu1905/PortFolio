@@ -968,7 +968,7 @@ span {
 }
 
 .carousel__face:nth-child(1) {
-  background-image: url("achieve6.jpg");
+  background-image: url("af22.jpeg");
   transform: rotateY(0deg) translateZ(430px);
 }
 .carousel__face:nth-child(2) {
@@ -980,7 +980,7 @@ span {
   transform: rotateY(80deg) translateZ(430px);
 }
 .carousel__face:nth-child(4) {
-  background-image: url("achieve4.jpg");
+  background-image: url("student_council.jpg");
   transform: rotateY(120deg) translateZ(430px);
 }
 .carousel__face:nth-child(5) {
@@ -988,8 +988,32 @@ span {
   transform: rotateY(160deg) translateZ(430px);
 }
 .carousel__face:nth-child(6) {
-  background-image: url("achieve7.jpg");
+  background-image: url("iete.jpg");
   transform: rotateY(200deg) translateZ(430px);
+}
+
+#my_links {
+  padding: 5% 0% 5% 25%;
+}
+
+@media (max-width: 800px) {
+  .container1 {
+    position: relative;
+    width: 340px;
+    margin: 15% auto 15% auto;
+    perspective: 1000px;
+    height: 15rem;
+  }
+
+  .body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    align-items: center;
+  }
+
+  #my_links {
+    padding: 5% 0% 5% 15%;
+  }
 }
 
 @keyframes rotate360 {
@@ -999,10 +1023,6 @@ span {
   to {
     transform: rotateY(-360deg);
   }
-}
-
-#my_links {
-  padding: 5% 0% 5% 25%;
 }
 
 .footer-link {
